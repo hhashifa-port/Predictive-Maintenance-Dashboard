@@ -21,9 +21,16 @@ To capture the underlying physics of the machine, the following features were en
 These engineered features showed higher importance in the final model than raw sensor inputs.
 
 ## Modeling and Evaluation
-- Algorithm: Random Forest Classifier (Multi-output/Multiclass).
-- Imbalance Handling: Applied SMOTE (Synthetic Minority Over-sampling Technique) to the training set to ensure the model learns the characteristics of rare failure modes.
-- Performance: The model achieved high precision and recall across failure types, significantly outperforming a baseline model without SMOTE.
+- Algorithm:
+  - Phase 1: Model Selection (Baseline)
+    - Model Comparison: Evaluated several algorithms, including Logistic Regression, K-Nearest Neighbors, Random Forest, XGBoost Classifier.
+    - Result: Random Forest emerged as the top performer due to achieving the highest Recall score.
+  - Phase 2: Deep Dive and Optimization
+    - Hyperparameter Tuning: Conducted fine-tuning on the Random Forest model to optimize performance.
+    - Feature Importance Analysis: Identified the critical roles of Delta T, Power, and Strain in the model's decision making process.
+  - Phase 3: Multi-Diagnostic Upgrade
+    - Multiclass Implementation: Applied the proven Random Forest architecture to address multiclass classification problems.
+    - SMOTE Integration: Utilized a specialized multiclass SMOTE to enable the model to accurately detect rare failure types, such as Tool Wear Failure and Random Failure.
 
 ## Actionable Insights
 The system doesn't just predict; it prescribes. The integrated dashboard provides the following logic:
