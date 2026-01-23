@@ -2,7 +2,7 @@
 This project delivers an end-to-end Machine Learning solution to predict and diagnose industrial machine failures. Using the [AI4I 2020 Predictive Maintenance Dataset](https://archive.ics.uci.edu/dataset/601/ai4i+2020+predictive+maintenance+dataset), the system classifies specific failure types, enabling proactive maintenance and reducing operational downtime.
 
 ## Live Demo
-You can access the interactive dashboard here: [Predictive-Maintenance-Dashboard](https://predictive-maintenance-dashboard-atulzfmv2ckqzqclgubmd5.streamlit.app/) <br>
+You can access the interactive dashboard here: [Predictive-Maintenance-Dashboard](https://predictive-maintenance-dashboard-hhashifa-port.streamlit.app/) <br>
 Or you can simulate this project in colab: [Open in Colab](https://colab.research.google.com/drive/1NU4VwO8CnGITqupOTythkP3khHhjQ3lX#scrollTo=IokAQ7MVm2WI)
 
 ## Problem Statement
