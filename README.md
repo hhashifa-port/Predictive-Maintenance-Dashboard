@@ -3,6 +3,7 @@ This project delivers an end-to-end Machine Learning solution to predict and dia
 
 ## Live Demo
 You can access the interactive dashboard here: [Predictive-Maintenance-Dashboard](https://predictive-maintenance-dashboard-hhashifa-port.streamlit.app/) <br>
+<img width="1796" height="885" alt="image" src="https://github.com/user-attachments/assets/44e67625-9784-4c2a-83c7-83c9e8ad4e2b" /> <br>
 Or you can simulate this project in colab: [Open in Colab](https://colab.research.google.com/drive/1NU4VwO8CnGITqupOTythkP3khHhjQ3lX#scrollTo=IokAQ7MVm2WI)
 
 ## Problem Statement
